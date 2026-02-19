@@ -1,0 +1,11 @@
+# Sensitive keys
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Local Vector Database
+data/vector_store/data/raw/creditcard.csv
