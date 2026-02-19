@@ -9,7 +9,7 @@ SentinelRAG is an AI-powered assistant designed for banking institutions to brid
 ### 1. Clone the Repository
 Open **PowerShell** or **Command Prompt** and run the following commands to download the project:
 ```bash
-git clone [https://github.com/aadinathdeepak/SentinelRAG.git](https://github.com/aadinathdeepak/SentinelRAG.git)
+git clone https://github.com/aadinathdeepak/SentinelRAG.git
 cd SentinelRAG
 ```
 
@@ -62,6 +62,7 @@ Start the Streamlit interface:
 ```bash
 streamlit run src/app.py
 ```
+
 
 
 
