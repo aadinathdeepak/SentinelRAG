@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ### 4. Download the Dataset
 The credit card dataset is too large for GitHub and must be added manually.
 
-Download Link: [Kaggle Credit Card Fraud Detection] (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+Download Link: (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
 Action: Download the creditcard.csv file.
 
@@ -39,7 +39,7 @@ Placement: Navigate to your project folder and place the file inside data/raw/.
 ### 5. Configure Groq API Key
 The chatbot uses Groq's Llama-3 models for high-speed inference.
 
-Get Key: Visit the [Groq Cloud Console] (https://console.groq.com/home) and click "Create API Key".
+Get Key: Visit the (https://console.groq.com/home) and click "Create API Key".
 
 Action: Create a new file in the root directory named .env.
 
@@ -62,6 +62,15 @@ Start the Streamlit interface:
 ```bash
 streamlit run src/app.py
 ```
+
+### 📊 Presentation Demo Script
+The Policy Expert: Ask the bot, "What is the CFPB rule on how fast a bank has to investigate a disputed charge?".
+
+The Technical Audit: Ask, "What does the FFIEC manual say about Identity Proofing for high-risk transactions?".
+
+Visual Analytics: Use the sidebar checkbox "Show Dataset Analytics" to display transaction trends and fraud ratios.
+
+The Killer Feature: Click "🚨 Simulate Fraud Alert" to pull a real fraud sample from the Kaggle data and have the AI explain the risk based on the manuals.
 
 
 
