@@ -51,13 +51,13 @@ GROQ_API_KEY=your_actual_key_here
 
 ### 🛠️ Running the Project
 
-## Step A: Ingest Data
+#### Step A: Ingest Data
 Before starting the app, you must process the PDFs and CSV to build the local search database:
 ```bash
 python src/ingest.py
 ```
 
-## Step B: Launch Chatbot
+#### Step B: Launch Chatbot
 Start the Streamlit interface:
 ```bash
 streamlit run src/app.py
@@ -71,6 +71,7 @@ The Technical Audit: Ask, "What does the FFIEC manual say about Identity Proofin
 Visual Analytics: Use the sidebar checkbox "Show Dataset Analytics" to display transaction trends and fraud ratios.
 
 The Killer Feature: Click "🚨 Simulate Fraud Alert" to pull a real fraud sample from the Kaggle data and have the AI explain the risk based on the manuals.
+
 
 
 
